@@ -1,0 +1,52 @@
+
+
+.cuerpo_2
+{
+	width: 85%;/*controla el tamaño del cuerpo entero*/
+	
+	margin: auto;
+
+	/*border: solid; border-color: green;*/
+}
+
+.preservacion
+{	
+	text-align: center;
+	font-size: 50px;
+	color: white;
+
+	padding: 15px;
+	background-image: url("medusa_cuidado.jpg");
+	background-size: cover;
+	float: left;
+	width: 45%;
+	
+	border: solid; border-color: red;
+}
+
+.investigacion
+{
+	text-align: center;
+	font-size: 50px;
+	color:#e6005c;
+	padding: 15px;
+
+
+	float: right;
+	width: 45%;
+	
+
+	background-image: url("medusa_inv.jpg");
+	background-size: cover;
+
+	border: solid; border-color: red;
+}
+
+
+/* 			de aqui para abajo pertenece a div de la sub pag preservacion medusa 			*/
+
+.medusa_plaga
+{	
+	width: 400px;
+
+}

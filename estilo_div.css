@@ -1,0 +1,322 @@
+
+body
+{
+	background-image:repeating-linear-gradient(#3374ff,#004de6,#000000) ;
+	background-color: blue;
+	background-repeat: no-repeat;
+}
+
+.img_fondo
+{
+	background-image: url(medusa_cuidado.jpg);
+	background-size: cover;
+}
+
+marquee
+{
+
+	font-size: 40px;
+	font-family: forte;
+	/*border-style: solid;	border-color: red;/*colorear contorno del div*/
+
+}
+
+img/*usado para las img de la galeria*//*imagen*/
+{
+	width: 300px;
+
+}
+
+.img_prin/*imagen*/
+{
+	border: solid;
+	color: gray;
+	border-radius: 10px;
+}
+
+.noborder/*estilo de div*/
+
+{
+	border: none;
+}
+
+
+.baner/*estilo de div*/
+
+{	
+	padding-top: 5px;
+	padding-right: 15px;
+	background-color: black;
+	height: 110px;
+	border-radius: 15px;/*border al baner*/
+	
+}
+
+.baner_izq
+{	
+	float: left;
+	/*border-color: blue;	border-style: solid;*/
+}
+
+.baner_titulo
+{	padding-top: 20px;
+	font-size: 40px;
+	color: white;
+	float: left;	
+	width: 50%;
+	/*border-color: blue;	border-style: solid;*/
+}
+
+.baner_der
+{	
+	padding-top: 15px;
+	padding-right: 12px;
+	float: right;
+	/*border-color: blue;	border-style: solid;*/
+}
+
+.icono/*para el icono*//*estilo de div*/
+
+{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 20px;
+}
+.img_icono/*imagen*/
+{
+	width: 80px;
+}
+
+.menus/*clase para los links del baner*//*estilo de div*/
+
+{
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: poppins;
+	color: darkblue;
+}
+	
+.indice/*estilo de div*/
+
+{
+	margin: auto;
+	width: 70%;
+	text-align: left;
+	font-size: 20px;
+	border-radius: 10px;
+
+	border-color: blue;	border-style: solid;
+}
+
+.cuerpo/*estilo de div*/
+
+{
+	background-color:  #cce6ff;
+	text-align: center;/*para centrar un texto*/
+	margin: 0 auto;/*para centrar un div*/
+	
+	font-family:poppins;
+	color:black;
+	text-align: justify;
+	width:60%;
+	font-size:15px;
+
+	border-color: red;	border-style: solid;/*colorear contorno del div*/
+}
+
+.img_intro/*imagen*/
+
+{
+	background-image: url(medusa_intro.jpg);
+	width: 80%;
+	margin: auto;
+	background-size: cover;<!hace que la imagen de fondo cubra todo el fondo, independiente del tamaño de la imagen>
+
+
+	/*border-color: black;	border-style: solid;*/
+}
+
+
+.intro_1/*estilo de div*/
+
+{
+	text-align:center ;
+	font-size: 30px;
+	/*color: #ffff4d;*/
+	color:  white;
+	font-family: cooper;
+
+	padding: 50px;
+	margin: auto;
+	width: 60%;
+	height: 600px;
+
+	/*border-color: green;	border-style: solid; /*colorear contorno del div*/
+}
+
+
+.ficha/*estilo de div*/
+
+{		
+		background-color: #cce6ff;
+		width: 65%;
+		margin: auto;	
+
+		font-size: 45px;
+		border-radius: 8px;
+
+		border-color: hotpink;	border-style: solid;/*colorear contorno del div*/
+}
+
+.img_medusa_ficha/*imagen*/
+{
+	
+	width: 400px;
+	border-style: solid 20px red;
+}
+
+.info_ficha/*estilo de div*/
+
+{
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+
+	/*border-color: blue;	border-style: solid;colorear contorno del div*/
+}
+
+.medusa_gal/*imagen*/
+{
+	width: 750px;
+}
+
+
+.intro_galeria
+{	
+	margin: auto;
+	width: 70%;
+	background-color: lightblue;
+	border-radius: 10px;
+
+	/*border-color: white;	border-style: solid;*/
+}
+
+
+.cont_img
+{
+	width:90%;
+	/*border-color: white;	border-style: solid;*/
+}
+
+.cuerpo_galeria
+{
+	border: 5px solid deeppink;/*no dejar nada abierto o si no no servira esto*/
+	width: 80%;
+}
+
+.intro_text_galeria
+{
+	margin: auto;
+	width: 45%;
+	height: 60px;
+	background-color: lightblue;
+	border-radius: 10px;
+
+	/*border-color: white;	border-style: solid;*/
+}
+
+
+.cuerpo_tipo_medusa
+{
+	border-radius:10px ;
+	/*border: 2px solid white;*/
+}
+
+.lista
+{	
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.relleno/*estilo de div*/
+{
+	background-color: #cce6ff;
+	margin: 0 auto;/*para ce1ntrar un div*/
+
+	font-family:verdana;
+	color:blue;
+	width:50%;
+	height:600px;
+	text-align: center;/*para centrar un texto*/
+	
+	border-color: red;/*colorear contorno del div*/
+	border-style: solid;
+}
+
+.img_der/*imagen*/
+{
+	float: right;
+	width: 300px;
+	padding-left: 0px;
+
+}
+
+.img_izq/*imagen*/
+{
+	float: left;
+	width: 250px;
+	padding-right: 0px;
+}
+
+.img_der_2/*imagen*/
+{
+	float: right;
+	width: 400px;
+}
+
+video/*para los videos*/
+{
+	border: 3px solid blue;
+	border-radius: 30px;
+}
+
+.fondo
+{	
+	background-color:#1a1a1a1a;
+	margin: auto;
+	width: 92%;
+
+	text-align: center;
+	color: gray;
+	/*border: 2px solid white;/**/
+}
+.cont_fondo_izq
+{	
+	width: 19%;
+	float: left;
+	color: #333333;
+	/*border: 2px solid white;/**/
+}
+
+.cont_fondo_der
+{
+	float: right;
+	color: gray;
+	border: 2px solid white;
+}
+
+
+.tapa/*usada para hacer que div flotantes no se salgan de donde deben*/
+{
+	/*border-style: solid; border-color: red;/*colorear contorno del div*/
+	
+
+	height: 10px;
+	clear: both;
+	width: 10px;
+	cursor: not-allowed; /*para hacer que el cursor al pasar por encima, aparezca una señal de denegado
+}
+
+/*atributo iframe, invesitagar*/

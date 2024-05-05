@@ -1,0 +1,132 @@
+.titulo_prin/*estilo de letra*/
+{
+	text-align: center;
+	font-family: lora;
+	font-size: 90px;
+	color:#ffff00; ;
+}
+
+.titulo/*para titulos*//*estilo de letra*/
+{
+	text-align: center;
+	font-family: cooper;
+	font-size: 40px;
+	
+}
+
+.titulo_2/*estilo de letra*/
+{
+	font-family: cooper;
+	font-size: 35px;
+	padding-left: 0px;	
+}
+
+.titulo_3/*estilo de letra*/
+{
+	font-family: cooper;
+	font-size: 45px;
+}
+
+.titulo_4
+{
+	font-family: cooper;
+	font-size: 60px;
+}
+
+.titulo_shadow
+{
+	text-shadow: 8px 2px 10px black;
+}
+
+.texto/*estilo de letra*/
+{
+	text-align: justify;/*para centrar un texto*/
+	font-family:arial;
+	font-size:20px;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	/*border-color: hotpink;	border-style: solid;/*colorear contorno del div*/
+}
+
+.text_izq/*estilo de letra*/
+{
+	font-size: 25px;
+
+	padding-left:15px;
+	width: 45%;
+	height: 230px;
+	float: left;
+	/*border-color: hotpink;	border-style: solid;/*colorear contorno del div*/
+}
+
+.text_der/*estilo de letra*/
+{	
+	font-size: 25px;
+	padding-right: 15px;
+	height: 230px;
+	width: 45%;
+	float: right;
+	/*border-color: hotpink;	border-style: solid;/*colorear contorno del div*/
+}
+
+.text_izq_2/*estilo de letra*/
+{
+	font-size: 25px;
+	height: 400px;
+	padding-left:15px;
+	width: 45%;
+	float: left;
+
+	/*border-color: blue;	border-style: solid;/*colorear contorno del div*/
+}
+
+.text_der_2/*estilo de letra*/
+{
+	font-size: 25px;
+	height: 400px;
+	padding-left:15px;
+	width: 45%;
+	float: right;
+
+	/*border-color: red;	border-style: solid;/*colorear contorno del div*/
+}
+
+
+
+
+
+.der
+{
+	float: right;
+}
+
+
+.text_auto/*estilo de letra*/
+{	
+	font-size: 25px;
+	height: 250px;
+	width: 85%;
+	clear: both;
+	margin: auto;
+}
+
+.text_demo
+{
+	font-size: 20px;
+}
+
+
+
+.chiquito/*estilo de letra*/
+{
+	text-align: center;
+	font-size: 6px;
+}
+
+.chiquito_2/*estilo de letra*/
+{
+	text-align: center;
+	font-size: 15px;
+}
